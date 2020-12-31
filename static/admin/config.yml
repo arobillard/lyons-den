@@ -25,3 +25,22 @@ collections:
         widget: uniqueId
         visible: false
         hint: A randomly generated ID used for identifying and organizing your post in the backend. It is disable on purpose.
+  - name: "pages"
+    label: "Pages"
+    folder: "content/pages"
+    create: true
+    slug: "/pages/{{slug}}"
+    media_folder: ""
+    public_folder: ""
+    path: "{{title}}/index"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      # - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - name: uniqueId
+        label: UniqueId
+        widget: uniqueId
+        visible: false
+        hint: A randomly generated ID used for identifying and organizing your post in the backend. It is disable on purpose.
