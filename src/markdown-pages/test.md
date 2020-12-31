@@ -1,8 +1,7 @@
 ---
-title: Hello there!
-date: 2020-12-31T18:33:52.794Z
-description: A test made on Netlify
-slug: /blog/hello-there
+title: A basic markdown page
+date: "2020-12-31"
+slug: /projects/test
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Convallis aenean et tortor at risus viverra adipiscing at in. Cras fermentum odio eu feugiat pretium nibh. Est sit amet facilisis magna. Sed cras ornare arcu dui vivamus arcu felis bibendum. Feugiat in fermentum posuere urna nec. Massa placerat duis ultricies lacus. Nunc consequat interdum varius sit amet mattis vulputate enim. Magna eget est lorem ipsum dolor sit amet consectetur. Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Est velit egestas dui id ornare arcu odio. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Tortor aliquam nulla facilisi cras fermentum odio eu.
