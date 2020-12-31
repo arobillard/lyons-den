@@ -22,4 +22,6 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - name: uniqueId
         label: UniqueId
-        widget: categories
+        widget: uniqueId
+        visible: false
+        hint: A randomly generated ID used for identifying and organizing your post in the backend. It is disable on purpose.

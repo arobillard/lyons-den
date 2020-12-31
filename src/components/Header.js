@@ -13,6 +13,10 @@ const Masthead = styled.header`
     color: #fff;
     text-decoration: none;
     margin: 0;
+    &[aria-current='page'],
+    &.active {
+      color: yellow;
+    }
   }
   strong {
     display: block;

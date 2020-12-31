@@ -10,9 +10,8 @@
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 <script>
   const UniqueID = createClass({
-
   handleChange(e) {
-    console.log(e);
+    this.props.onChange(e.target.value);
   },
   
   render() {
@@ -25,13 +24,18 @@
         i++;
       }
       const randomId = randomIdChars.join('');
+  
+      const { value } = this.props;
+
+      this.props.onChange(value || randomId);
 
       return h('input', {
         id: this.props.forID,
         className: this.props.classNameWrapper,
         type: 'text',
-        value: randomId,
-        onChange:
+        value: value || randomId,
+        disabled: true,
+        onChange: this.handleChange,
       });
   },
 });

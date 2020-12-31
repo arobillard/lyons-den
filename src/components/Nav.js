@@ -7,10 +7,19 @@ export default function Nav({ id, classNames }) {
     <nav id={id} className={classNames}>
       <UlClear>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" activeClassName="active">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects" activeClassName="active" partiallyActive>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to="/blog" activeClassName="active" partiallyActive>
+            Blog
+          </Link>
         </li>
       </UlClear>
     </nav>
