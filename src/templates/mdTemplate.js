@@ -20,12 +20,12 @@ export default function mdTemplate({ data }) {
 }
 
 export const pageQuery = graphql`
-  query($slug: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+  query($uniqueId: String!) {
+    markdownRemark(frontmatter: { uniqueId: { eq: $uniqueId } }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        slug
+        uniqueId
         title
       }
     }
