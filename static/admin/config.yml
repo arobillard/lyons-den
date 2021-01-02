@@ -16,15 +16,10 @@ collections:
     path: "{{title}}/index"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      # - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Type", name: "type", widget: "hidden", default: "blog" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - name: uniqueId
-        label: UniqueId
-        widget: uniqueId
-        visible: false
-        hint: A randomly generated ID used for identifying and organizing your post in the backend. It is disable on purpose.
   - name: "pages"
     label: "Pages"
     folder: "content/pages"
@@ -35,12 +30,7 @@ collections:
     path: "{{title}}/index"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      # - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Type", name: "type", widget: "hidden", default: "page" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - name: uniqueId
-        label: UniqueId
-        widget: uniqueId
-        visible: false
-        hint: A randomly generated ID used for identifying and organizing your post in the backend. It is disable on purpose.
